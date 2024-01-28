@@ -11,29 +11,29 @@ Brief project description goes here.
 
 
 ## Introduction
-Name: E-Commerce Shopping App using ReactJS
-Description: An e-commerce web application for online shopping.
-Purpose: Created to provide users with a seamless online shopping experience, managing a shopping cart, viewing product details, and exploring a variety of products.
-Key Features:
+- Name: E-Commerce Shopping App using ReactJS
+- Description: An e-commerce web application for online shopping.
+- Purpose: Created to provide users with a seamless online shopping experience, managing a shopping cart, viewing product details, and exploring a variety of products.
+- Key Features:
 
-Product Catalog: Users can browse through a catalog of products.
-Shopping Cart: A fully functional shopping cart to add, remove, and manage selected products.
-Product Details: Detailed information about each product, including images, titles, and prices.
-User Authentication: A login page with a clean design, allowing users to sign in or sign up.
-Technologies Used:
+- Product Catalog: Users can browse through a catalog of products.
+- Shopping Cart: A fully functional shopping cart to add, remove, and manage selected products.
+ - Product Details: Detailed information about each product, including images, titles, and prices.
+- User Authentication: A login page with a clean design, allowing users to sign in or sign up.
+- Technologies Used:
 
-Frontend: React.js
-Styling: Tailwind CSS for a modern and responsive UI.
-State Management: Redux for managing the application state.
-Routing: React Router for navigation.
-Getting Started:
+- Frontend: React.js
+- Styling: Tailwind CSS for a modern and responsive UI.
+- State Management: Redux for managing the application state.
+- Routing: React Router for navigation.
+- Getting Started:
 
-Users can explore the catalog, add products to their cart, and proceed to checkout.
-The application provides a smooth and user-friendly interface for online shopping.
-Contributing:
+- Users can explore the catalog, add products to their cart, and proceed to checkout.
+- The application provides a smooth and user-friendly interface for online shopping.
+- Contributing:
 
-Contributors are welcome to submit issues, feature requests, or pull requests.
-Follow the provided guidelines for contributing to the project.
+- Contributors are welcome to submit issues, feature requests, or pull requests.
+- Follow the provided guidelines for contributing to the project.
 
 ## Features
 
