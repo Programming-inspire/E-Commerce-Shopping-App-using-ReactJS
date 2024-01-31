@@ -1,4 +1,3 @@
-// ProductDetailScreen.js
 import React, { useState, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../redux/Action';
@@ -11,14 +10,13 @@ const ProductDetailScreen = () => {
   const dispatch = useDispatch();
 
   const handleAddToCart = () => {
-    // Ensure the product is available before dispatching the action
     if (product) {
       dispatch(addToCart(product));
     }
   };
 
   useEffect(() => {
-    // Fetch product details based on productId
+    
     fetch(`https://dummyjson.com/products/${productId}`)
       .then((response) => {
         if (!response.ok) {

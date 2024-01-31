@@ -24,12 +24,10 @@ const Cart = () => {
 
   const handleProceedToBuy = () => {
     setPopupVisible(true);
-    // You can perform other actions related to the purchase here
   };
 
   const closePopup = () => {
     setPopupVisible(false);
-    // Additional actions to perform when the popup is closed
   };
   return (
     <div className="mt-40 mb-40 ml-10 mr-10">

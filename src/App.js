@@ -1,12 +1,11 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import {BrowserRouter as Router,Route, Routes} from 'react-router-dom';
 import Home from './components/Home';
 import Login from './components/Login';
 import Cart from './components/Cart';
 import Products from './components/Products';
 import ProductDetailScreen from './components/ProductDetailScreen'; 
-import SearchProduct from './components/SearchProduct';
+import SearchProduct from './components/SearchProducts';
 
 
 const App = () => {

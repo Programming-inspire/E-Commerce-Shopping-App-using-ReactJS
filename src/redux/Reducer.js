@@ -1,9 +1,9 @@
-// redux/Reducer.js
 import { createReducer } from '@reduxjs/toolkit';
-import { addToCart, removeFromCart, incrementQuantity, decrementQuantity,clearCart  } from './Action';
+import { addToCart, removeFromCart, incrementQuantity, decrementQuantity, clearCart, setSearchTerm } from './Action';
 
 const initialState = {
-  cart: [], // Make sure it is an array
+  cart: [],
+  searchTerm: '',
 };
 
 export const cartReducer = createReducer(initialState, (builder) => {
@@ -32,11 +32,18 @@ export const cartReducer = createReducer(initialState, (builder) => {
         existingProduct.quantity -= 1;
       }
     })
-    
     .addCase(clearCart, (state) => {
       state.cart = [];
-    });
-    
+    })
+    .addCase(setSearchTerm, (state, action) => {
+      state.searchTerm = action.payload;
+    }); // Add this block
+});
 
-    
+
+export const searchReducer = createReducer(initialState, (builder) => {
+  builder
+    .addCase(setSearchTerm, (state, action) => {
+      state.searchTerm = action.payload;
+    });
 });
